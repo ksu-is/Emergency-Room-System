@@ -12,10 +12,25 @@ This will help me in creating the code that is needed to add and search for a pa
 
 There is also some useful tips here: https://www.daniweb.com/programming/software-development/threads/445107/average-time-calculation that will help me in caluculating the average waiting time. 
 
-# Getting Started:
+## Getting Started:
 
-## Collect Information on: 
+### Collect Information on: 
 - [ ]	Setting up user name and password inputs
 - [ ] Average time calculation
 - [ ] Tips on how ERs can be more efficient 
+
+### Road Map: 
+- [ ] Set up README
+- [ ] Find related repository 
+- [ ] Clone related repository  https://github.com/ksu-is/simple-inventory.git
+- [ ] Create user input for user name and password
+- [ ] Create user input for patient record
+- [ ] Set up code to calculate the average waiting time
+- [ ] Test code
+
+
+
+
+
+
 
