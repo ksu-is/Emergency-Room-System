@@ -11,3 +11,8 @@ I will be using a related code from a program that keeps school records. The pro
 This will help me in creating the code that is needed to add and search for a patient record using an ID number. 
 
 There is also some useful tips here: https://www.daniweb.com/programming/software-development/threads/445107/average-time-calculation that will help me in caluculating the average waiting time. 
+
+# Getting Started:
+
+## Collect Information on: 
+[]	Setting up user name and password inputs
