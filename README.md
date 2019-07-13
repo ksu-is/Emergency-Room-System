@@ -16,3 +16,6 @@ There is also some useful tips here: https://www.daniweb.com/programming/softwar
 
 ## Collect Information on: 
 - [ ]	Setting up user name and password inputs
+- [ ] Average time calculation
+- [ ] Tips on how ERs can be more efficient 
+
