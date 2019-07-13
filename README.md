@@ -15,4 +15,4 @@ There is also some useful tips here: https://www.daniweb.com/programming/softwar
 # Getting Started:
 
 ## Collect Information on: 
-[]	Setting up user name and password inputs
+[ ]	Setting up user name and password inputs
