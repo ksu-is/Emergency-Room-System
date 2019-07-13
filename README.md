@@ -8,4 +8,4 @@ Keeping track of patient records is a very important task and having those recor
 I will be using a related code from a program that keeps school records. The program is found at this link: https://github.com/sudipsingh04/Student-Record-System/blob/master/Program.py.
 This will help me in creating the code that is needed to add and search for a patient record using an ID number. 
 
-There is also some useful tips here: https://stackoverflow.com/questions/12033905/using-python-to-create-an-average-out-of-a-list-of-times that will help me in caluculating the average waiting time. 
+There is also some useful tips here: https://www.daniweb.com/programming/software-development/threads/445107/average-time-calculation that will help me in caluculating the average waiting time. 
