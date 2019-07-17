@@ -1,5 +1,5 @@
-Enter "1" for level one clearance
-Enter "2" for level two clearance
+#"1" for level one clearance
+#"2" for level two clearance
 
 clearance_level = input("Please enter your clearance level here: ")
 if clearance_level==1:
