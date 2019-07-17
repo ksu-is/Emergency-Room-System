@@ -20,3 +20,14 @@ patient_id = list_patientID[index]
 print(age)
 print(blood_type)
 print(patient_id)
+
+#get the name, age and bloodtype with the patient ID number
+
+patient_id = input("Enter the patinet ID please: ")
+index = list_patientID.index(patient_id)
+last_name = list_name[index]
+age = list_age[index]
+blood_type = list_blood_type[index]
+print(last_name)
+print(age)
+print(blood_type)
