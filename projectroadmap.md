@@ -1,1 +1,1 @@
--[ ] Set up user input for clearance
+1 Set up user input for clearance
