@@ -1,8 +1,16 @@
+Enter "1" for level one clearance
+Enter "2" for level two clearance
+
 clearance_level = input("Please enter your clearance level here: ")
 if clearance_level==1:
-    print("You may add or search for a patient record")
+    print("You are allowed to add a patient record or search for a patinet record")
+    option_one = input("Enter 'A' to view patient list /n Enter 'B' to add a new patient /n Enter 'C' to search for a patient: ")
+    print(option_one)
+    if option_one == "A"
 elif clearance_level==2:
-    print("You may calculate the average waiting time for a patient")
+    print("Your clearance level allows you to calculate the average waiting time for a patient in the Emergency Room")
+    option_two = input("Enter 'A' to view patient list /n Enter 'B' to add a new patient /n Enter 'C' to search for a patient /n Enter 'D' to caculate the average wating time of all patients: ")
+    print(option_two)
 else:
     pass
 list_patientID = ["4554", "8861", "9254"]
