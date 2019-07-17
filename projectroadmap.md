@@ -6,5 +6,5 @@
 6. Allow user to calculate the average waiting time for a patient
 7. Research average emergency room waiting time for most hospitals 
 8. Set the standard average waiting time that the hopital should not exceed
-9.Display important techniques for decreasing the average waiting time if the average is higher than the standard set
+9. Display important techniques for decreasing the average waiting time if the average is higher than the standard set
 
