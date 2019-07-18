@@ -111,6 +111,12 @@ elif clearance_level=="2":
                 print(list_name)
                 print(list_age)
                 print(list_blood_type)
+	    elif option_two.upper()=="C":
+                from datetime import timedelta
+                times = list_waiting_time
+                print(str(timedelta(seconds=sum(map(lambda f: int(f[0])*3600 + int(f[1])*60 + int(f[2]), map(lambda f: f.split(':'), times)))/len(times))))
+
+	
             else:
                 print("That is an invalid input, please read the instructions and try again ")
                 break
