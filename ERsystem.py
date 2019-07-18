@@ -52,6 +52,7 @@ if clearance_level=="1":
             pass
             
     elif option_one.upper()=="B":
+	print("Enter the new comma separated record like this: 'PatientID,LastName,Age,Bloodtype' ")
         record = input("Enter a new patient record: ")
         list_values = record.split(",")
         list_patientID.append(list_values[0])
@@ -99,6 +100,7 @@ elif clearance_level=="2":
                     pass
             
             elif option_one.upper()=="B":
+		print("Enter the new comma separated record like this: 'PatientID,LastName,Age,Bloodtype' ")
                 record = input("Enter a new patient record: ")
                 list_values = record.split(",")
                 list_patientID.append(list_values[0])
