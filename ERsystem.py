@@ -8,6 +8,14 @@ if clearance_level==1:
     print(option_one)
     if option_one == "A"
 elif clearance_level==2:
+    elif clearance_level==2:
+    while True:
+        pwd = input("Enter your 4 digit level two clearance password: ")
+        if pwd= "1987":
+            print("Welcome")
+            break
+        else: 
+            print("The password you entered is incorrect")
     print("Your clearance level allows you to calculate the average waiting time for a patient in the Emergency Room")
     option_two = input("Enter 'A' to view patient list /n Enter 'B' to add a new patient /n Enter 'C' to search for a patient /n Enter 'D' to caculate the average wating time of all patients: ")
     print(option_two)
