@@ -1,5 +1,21 @@
-#"1" for level one clearance
-#"2" for level two clearance
+print(""" 
+ ########################################################
+# ====================================================== # 
+# ======== Welcome To Emergency Room System	======== #
+# ====================================================== #
+ ########################################################
+
+First enter your clearance level
+Enter 1 if you have level one clearance 
+Enter 2 if you have level two clearance
+
+Then: 
+Enter A To view patient list
+Enter B To add a new patient  
+Enter 3 To search for a patient 
+Enter 4 To caculate the average wating time of all patients
+		
+		""")
 
 clearance_level = input("Please enter your clearance level here: ")
 if clearance_level==1:
