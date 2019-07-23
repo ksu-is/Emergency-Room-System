@@ -1,16 +1,17 @@
+from datetime import datetime
 list_patientID = ["4554", "8861", "9254"]
 list_name = [ "Bennet", "Gilbert", "Johnson"]
 list_age = ["18", "21", "45"]
 list_blood_type = ["O","A","B"]
 list_waiting_time = ["00:56:00", "01:36:00", "02:03:00"]
 def emergencyroomsystem():
-    
+   
 
 
     print(""" 
     ########################################################
     # ====================================================== # 
-    # ======== Welcome To Emergency Room System	======== #
+    # ======== Welcome To Emergency Room System ======== #
     # ====================================================== #
     ########################################################
 
@@ -22,8 +23,8 @@ def emergencyroomsystem():
     Enter A To search for a patient  
     Enter B To add a new patient record
     Enter C To calculate the average waiting time of all patients
-		
-	    	""")
+        
+            """)
 
 
     clearance_level = input("Please enter your clearance level here: ")
@@ -97,6 +98,7 @@ def emergencyroomsystem():
                         print("Blood Type: ", blood_type)
                         print("Patient ID: ", patient_id)
                         print("Waiting time: ", waiting_time)
+                        
                     elif name_or_ID.upper()=="D":
                         patient_id = input("Enter the patinet ID please: ")
                         index = list_patientID.index(patient_id)
@@ -129,7 +131,15 @@ def emergencyroomsystem():
                 elif option_two.upper()=="C":
                     from datetime import timedelta
                     times = list_waiting_time
-                    print("The average waiting time for the emergency room is: ", str(timedelta(seconds=sum(map(lambda f: int(f[0])*3600 + int(f[1])*60 + int(f[2]), map(lambda f: f.split(':'), times)))/len(times))))
+                    result = timedelta(seconds=sum(map(lambda f: int(f[0])*3600 + int(f[1])*60 + int(f[2]), map(lambda f: f.split(':'), times)))/len(times))
+                    print("The average waiting time for the emergency room is: ", str(result))
+                    compare_datetime_object = datetime.strptime('1:00:00', '%H:%M:%S')
+                    delta=timedelta(hours=compare_datetime_object.hour, minutes=compare_datetime_object.minute, seconds=compare_datetime_object.second)
+                    if (result>delta):
+                        print ("over")
+                    else:
+                        print ("good time")
+                        
 
                 else:
                     print("That is an invalid input, please read the instructions and try again ")
@@ -150,3 +160,4 @@ def emergencyroomsystem():
     else:
         exit()
 emergencyroomsystem()
+
