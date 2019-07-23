@@ -1,9 +1,10 @@
+list_patientID = ["4554", "8861", "9254"]
+list_name = [ "Bennet", "Gilbert", "Johnson"]
+list_age = ["18", "21", "45"]
+list_blood_type = ["O","A","B"]
+list_waiting_time = ["00:56:00", "01:36:00", "02:03:00"]
 def emergencyroomsystem():
-    list_patientID = ["4554", "8861", "9254"]
-    list_name = [ "Bennet", "Gilbert", "Johnson"]
-    list_age = ["18", "21", "45"]
-    list_blood_type = ["O","A","B"]
-    list_waiting_time = ["00:56:00", "01:36:00", "02:03:00"]
+    
 
 
     print(""" 
@@ -143,7 +144,7 @@ def emergencyroomsystem():
            
     else:
         pass
-    restart = input("Would you like to start again? ").lower()
+    restart = input("Would you like to start again? Type 'yes' or 'no' ").lower()
     if restart=="yes":
         emergencyroomsystem()
     else:
