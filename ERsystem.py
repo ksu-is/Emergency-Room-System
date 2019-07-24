@@ -14,11 +14,9 @@ def emergencyroomsystem():
     # ======== Welcome To Emergency Room System ======== #
     # ====================================================== #
     ########################################################
-
     First enter your clearance level
     Enter 1 if you have level one clearance 
     Enter 2 if you have level two clearance
-
     Then: 
     Enter A To search for a patient  
     Enter B To add a new patient record
@@ -136,9 +134,15 @@ def emergencyroomsystem():
                     compare_datetime_object = datetime.strptime('1:00:00', '%H:%M:%S')
                     delta=timedelta(hours=compare_datetime_object.hour, minutes=compare_datetime_object.minute, seconds=compare_datetime_object.second)
                     if (result>delta):
-                        print ("over")
+                        print ("""Your average waiting time is higher than the standard set for the hospital, here are some useful tips on how how you can reduce the waiting time for your patients.
+
+You should schedule surgeries and other non-life-threatening procedures on days where the hospital’s less likely to have a spike in patient volume due to a busy evening in the Emergency Department.
+
+Make reducing wait times a part of your hospital’s culture. Healthcare executives must make wait times a priority in their facility. This means they must implement specific policies designed to address problems that can lead to increased wait times, including staffing policies. They must also commit to regularly evaluating their hospitals’ workflow and be willing to invest in solutions to speed up care delivery, including automated systems designed to streamline scheduling.
+
+Consider alternate methods of care delivery. To ease the burden of high wait times, your hospitals can try treating patients in various ways. Telemedicine may be one solution for the emergency room patients with less serious issues. Your hospital may also partner directly with nearby urgent care clinics and other healthcare entities so they can provide patients with an alternative to the emergency department to lower their wait time.""")
                     else:
-                        print ("good time")
+                        print ("The average waiting time for your emergency room is lower than the standard set for the hospital. Keep up the good work!")
                         
 
                 else:
@@ -160,4 +164,3 @@ def emergencyroomsystem():
     else:
         exit()
 emergencyroomsystem()
-
