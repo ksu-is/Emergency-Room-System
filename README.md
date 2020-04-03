@@ -24,10 +24,10 @@ There is also some useful tips here: https://www.daniweb.com/programming/softwar
 - [x] Find related repository 
 - [x] Clone related repository  https://github.com/ksu-is/simple-inventory.git
 - [x] Create user input for user name and password
-- [ ] Create user input for patient record
-- [ ] Option to search record with name and ID number
-- [ ] Set up code to calculate the average waiting time
-- [ ] Test code
+- [x] Create user input for patient record
+- [x] Option to search record with name and ID number
+- [x] Set up code to calculate the average waiting time
+- [x] Test code
 
 
 
